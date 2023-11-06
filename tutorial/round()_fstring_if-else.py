@@ -87,6 +87,36 @@ if year % 4 == 0:                    // we can simple write in single lines,but 
 else:
     print("its not a leap year")
 
+# Multiple if statement 
+We use multiple if statements within same indentataion if we wanna verify all statements even if before statement is true.
+
+# Excerise
+size = input("What size pizza do you want (S/M/L)? ")
+bill = 0
+if size == 'S' or size == 's':
+    bill += 100
+    print("Small pizza price is 100 rs")
+elif size == 'M' or size == 'm':
+    bill += 150
+    print("Medium pizza price is 150 rs")
+else:
+    bill += 300
+    print("Large pizza price is 300 rs")
+
+add_pepperoni = input("Do you want pepperoni (Y/N)? ")
+if add_pepperoni == 'Y' or add_pepperoni == 'y':
+    if size == 'S' or size == 's':
+        bill += 30
+    else:
+        bill += 50
+
+extra_cheese = input("Do you want extra cheese (Y/N)? ")
+if extra_cheese == 'Y' or extra_cheese == 'y':
+    bill += 20
+
+print(f"Your final price is {bill} rs.")
+
+
 
 
  
