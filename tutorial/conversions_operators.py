@@ -23,5 +23,24 @@ print(a>5) --> False
 print(a=5) --> True 
 print(a!=5) --> False
 
+# Adders using operators
+a = 5
+b = 5
+print(id(a))  //if both are same data type = store in same adders else it will store in different adders
+print(id(b))
+print(a is b)
+output--> will ba same adders and final condition is true
+
+# Membership Operators
+string="Sai Krishna"
+print('a' in string) ---> True
+
+# Exercise problem
+w=int(input("enter weight of body")
+h=float(input("enter height of a person")
+bmi = w / h **2
+print(bmi)
+
+
 
 
