@@ -34,10 +34,33 @@ n.remove(3) ---> [1,5,6,-2,3] // we have two 3's .so, it nuked first occurance
 n.pop() ---> [1,5,3,6,-2] // nukes last element
 n.pop(2) ---> [1,5,6,-2,3] // nuke by using index with pop commands
 
+# Random Modules-predefined
+a=random.randint(1,7) // will print random number including a,b .example here it is 1,7
+a=random.randrang(1,7) // will print random number including a .example here it is 1
+a=random.randome() // will print random floating number from 0-1 in range
+a=random.uniform(1,4) // will print random floating number from rang a,b i.e. 1,4 here
+print(a)
+q=[3,49,-35,235,6,414]
+a=random.choice(q)
+print(a) // it will print a random numbers from an  given list
+q=[3,49,-35,235,6,414]
+random.shuffle(q)
+print(a) // it will print a list after shuffling all elements
 
+# Exercise --->(heads and tails)
+import random
+a=random.randint(1,2)
+print(a)
+if a == 1:
+    print("it is heads")
+else:
+    print("it is tails")
 
-
-
-
-
-
+# Nested Lists
+l=[2,5,3,[634,46,86],24]
+print(len(l)) ---> 5 // inside list is considered as single element in address and there by it slipts
+print(l[4])  ---> 24
+print(l[3][1]) ---> 46
+print(l[-2]) ---> [634,46,86]
+print(l[3][0:2]) ---> [634,46] // slicing concept here :2 is len
+print(l[3][::2]) --->[634,86]  // stepping based in len
