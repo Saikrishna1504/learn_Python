@@ -64,3 +64,22 @@ print(l[3][1]) ---> 46
 print(l[-2]) ---> [634,46,86]
 print(l[3][0:2]) ---> [634,46] // slicing concept here :2 is len
 print(l[3][::2]) --->[634,86]  // stepping based in len
+
+
+# Tuples
+tuple1 = (1,2,-7,4,3) //we use () instead of [] here
+tuple2 = (2,) // , is mandatory even if we initiate one elements else read as assign
+print(type(tuple1)) ---> tuple
+print(tuple1[2]) ---> -7 //index as same as list which starts from 0
+tuple_mix = (12,9,-31,'saikrishna',True,23) // different types in tuple possible
+// insert,deletion,remove etc.. functions not supported in tuples 
+
+# Tuple slicing
+tuple1 = (12,9,-31,'saikrishna',True,23,29,'krish')
+print(tuple[1:]) --->(9,-31,'saikrishna',True,23,29,'krish') // same as list ,here 1 is index
+print(tuple[:3]) ----> (12,9,-31) //here 3 is length
+print(tuple[::2]) ---> (12,-31,True,29,'krish') // step skips
+
+# Extra Tuple stuff
+tuple1=(1,2,-7,4,3)
+print(len(tuple1)) ---> 5 //finding length of 
