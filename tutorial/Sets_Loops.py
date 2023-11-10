@@ -33,6 +33,38 @@ for i in list1:
     print(sqr)  // will print squares one by one
 print(square) // will print in list
 
+# for else loop
+list1 =[77,9277,-92,0,-86]
+for i in list1:
+    print(i)
+else:
+    print(completed") // in for else ,else loop only execute when the for loop is successfully done
+
+list2=[287,75,2,86]
+for i in list2:
+    if i%2==0:
+        print(i)
+        break
+    else:
+        print(not possible)
+else:
+    print(completed) // here in this program,we have break condition which is true ,so it will force close and for else loop end up error(not executed)
+
+# Excercise
+---> Fidning max number in a list without using max,len functions 
+numbers = input("Enter list of numbers: ")
+numbers_list = numbers.split()
+count=0
+for number in numbers_list:
+count +=1
+print("The length of the list is (count)")
+for i in range (count): 
+    number_list[i]=int(numbers_list[i])
+maximum number = numbers_list[0]
+for number in numbers_list:
+    if number > maximum_number:
+        maximum_number = number 
+print(f"max nunber is : {maximum_number})
 
 
 
