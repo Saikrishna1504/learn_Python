@@ -66,6 +66,26 @@ for number in numbers_list:
         maximum_number = number 
 print(f"max nunber is : {maximum_number})
 
+---> Print sum of even numbers from 1 to 100
+sum = 0
+for i in range(1,101):
+    if i%2 ==0:
+        sum = sum +i
+print(f"sum of even numbers is :{sum})
+
+---> fuzzbuzz replacment program
+for n in range(1,16):
+    if n%2 == 0 and n%10 == 0:
+        print(fuzzbuzz)
+    elif n%2 ==0:
+        print(fuzz)
+    elif n%10 ==0:
+        print(buzz)
+    else:
+        print(n)    // it replaces the number accordingly 
+
+
+    
 
 
 
