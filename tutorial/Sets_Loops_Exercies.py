@@ -84,6 +84,16 @@ for n in range(1,16):
     else:
         print(n)    // it replaces the number accordingly 
 
+# While loop
+count = int(input("enter number"))
+while count <= 5:
+    print(count)
+    count +=1
+print("out of loop")
+
+
+
+
 
     
 
