@@ -40,7 +40,3 @@ w=int(input("enter weight of body")
 h=float(input("enter height of a person")
 bmi = w / h **2
 print(bmi)
-
-
-
-
